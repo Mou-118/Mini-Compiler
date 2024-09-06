@@ -1,0 +1,9 @@
+
+Header file found :
+import mathematical.h
+
+Header file found :
+import exchangeInfo.h
+#///////////////// Main function starts \\\\\\\\\\\\\\\\\
+#/////////////// Variables Declarations \\\\\\\\\\\\\\\\\\\
+syntax error

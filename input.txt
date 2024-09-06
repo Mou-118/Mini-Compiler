@@ -1,0 +1,99 @@
+import mathematical.h
+import exchangeInfo.h
+
+root:
+{
+    #///////////////// Main function starts \\\\\\\\\\\\\\\\\
+
+    #/////////////// Variables Declarations \\\\\\\\\\\\\\\\\\\
+    alphabet a,b,c;
+    borno x,y,z;
+
+    #//////////////// Value assignments \\\\\\\\\\\\\\\\\\
+    a=6;
+    b=2;
+    c=3;
+
+    #//////////////////// Calculations \\\\\\\\\\\\\\\\\\
+    c = a+b;
+    print(c);
+    c=a-b;
+    print(c);
+    c=a*b;
+    print(c);
+    c=a/b;
+    print(c);
+    c=a%b;
+    print(c);
+    c= 3^2;
+    print(c);
+
+    5++;
+    5--;
+
+    #///////////////// Conditionals \\\\\\\\\\\\\\\\\\
+    
+    # IFELSE functionality
+    jodi(a>b)
+    {
+        a+b;
+    }
+    nahole
+    {
+        a-b;
+    }
+
+    # SWITCH functionality
+    swiss ( a )
+	{
+	cassie 1 :
+		a + b; BREAK;
+	+
+	cassie 2 :
+		b + c; BREAK;
+	+
+	cassie 3 : 
+		a + c; BREAK;
+	emni :
+		c + i; BREAK;
+	}
+
+    5>2;
+    2<5;
+    5==5;
+    2!=5;
+    
+
+    #///////////////// Loops \\\\\\\\\\\\\\\\\\
+    loopfor (1<5)
+    {
+        a=a+b;
+    }
+    print(a);
+
+    loop(1<5)
+    {
+        a=a-b;
+    }
+    print(a);
+
+    #/////////////// ARRAY with intialization \\\\\\\\\\\\\\\
+    arriana int N (7) = 1;
+
+    #////////////// FUNCTIONS \\\\\\\\\\\\\\\\\
+    oe(8);
+    oe(7);
+    sin(e0);
+    cosine(0);
+    tangent(0);
+
+    primenaki(1);
+    primenaki(6);
+    primenaki(7);
+
+    seriesnaki(11);
+
+    gounik(20);
+
+
+}

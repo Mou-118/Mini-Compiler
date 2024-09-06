@@ -1,0 +1,61 @@
+#index
+#describe pi 3.1416
+
+udclass AB [
+	alphabet var_structvar |
+	stable alphabet var_flag |
+]
+nil sum < alphabet var_v1, alphabet var_v2, alphabet var_op>
+[
+	
+	longalphabet var_result |
+	jodi<var_op = 1>
+	[
+		var_result @ var_v1 plus var_v2|
+	]
+	nahole<var_op = 2>
+	[
+		var_result @ var_v1 minus var_v2|
+	]
+	nahole<var_op = 3>
+	[
+		var_result @ var_v1 into var_v2|
+	]
+	lastly
+	[
+		var_result @ var_v1 by var_v2|
+	]
+	back var_result |
+
+alphabet main <>
+[
+	alphabet var_a1, var_b1|
+	longalphabet var_ll1|
+	letter var_f1|
+	doubleletter var_d1|
+	
+	borno var_arr{100}|
+	
+	loopfor<var_a1@0|var_a1%%10|var_a1 inc>
+	[
+		cut|	
+	]
+	input<var_f1>
+	loop<var_f1$$10>
+	[
+		jodi<var_f1 = 6>
+		[
+			go|
+		]
+		nahole<var_f1 = 9>
+		[
+			output<var_f1>
+		]
+		var_f1 dec|				
+	]
+	alphabet ptr var_ab |
+	var_ab @ $var_b1|
+!> This is Comment
+
+	alphabet var_size @ fullsize<number>| 	
+]
